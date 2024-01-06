@@ -1,0 +1,10 @@
+name = "oshiri-time-signal"
+main = "src/index.ts"
+compatibility_date = "2023-12-18"
+
+[triggers]
+crons = ["0 * * * *"]
+
+[vars]
+OSHIRI_EMOJI = ":oshiri:"
+NO_OSIRI_EMOJI = ":oshiriganaiyan:"

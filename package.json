@@ -1,0 +1,19 @@
+{
+  "name": "oshiri-time-signal",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.4.1",
+    "@cloudflare/workers-types": "^4.20231218.0",
+    "typescript": "^5.0.4",
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "@js-temporal/polyfill": "^0.4.4"
+  }
+}
