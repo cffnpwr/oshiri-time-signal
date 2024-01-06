@@ -3,7 +3,7 @@ main = "src/index.ts"
 compatibility_date = "2023-12-18"
 
 [triggers]
-crons = ["0 * * * *"]
+crons = ["59 * * * *"]
 
 [vars]
 OSHIRI_EMOJI = ":oshiri:"
