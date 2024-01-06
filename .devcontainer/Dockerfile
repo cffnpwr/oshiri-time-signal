@@ -18,7 +18,7 @@ COPY --from=bun /usr/local/bin/bunx /usr/local/bin
 COPY --from=node /usr/local/bin/node /usr/local/bin
 
 RUN apt-get update && \
-  apt-get install -y --no-install-recommends sudo curl gpg && \
+  apt-get install -y --no-install-recommends sudo curl gpg openssh-client && \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/* && \
   groupadd --gid $GID $USERNAME && \
